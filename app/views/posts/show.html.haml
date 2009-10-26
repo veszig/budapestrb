@@ -1,0 +1,15 @@
+%h2= @post.title
+
+.date= @post.created_at
+
+= textilize(@post.body)
+
+%h3 Hozzászólások
+
+= render @post.comments
+
+- semantic_form_for Comment.new, :url => smart_url(@post, :comments) do |f|
+  - f.inputs do
+    = f.input :body, :label => 'Hozzászólás'
+  = f.buttons
+

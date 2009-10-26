@@ -1,0 +1,8 @@
+- div_for comment do
+  .date
+    = comment.user.username
+    |
+    = comment.user.created_at
+
+  = textilize(comment.body)
+

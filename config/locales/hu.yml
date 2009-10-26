@@ -1,0 +1,171 @@
+hu:
+  activerecord:
+    models:
+      book: 'A könyv'
+      cover: 'A borító'
+      description: 'A fülszöveg'
+      invitation: 'A meghívó'
+      message: 'Az üzenet'
+      page: 'Az oldal'
+      tale: 'A történet'
+      topic: 'A téma'
+      trail: 'A kollekció'
+      user: 'A felhasználó'
+      wave: 'Az üzenetfolyam'
+    attributes:
+      book:
+        author: 'A szerző'
+        name: 'A név'
+        title: 'A cím'
+      cover:
+        image: 'A kép'
+      description:
+        description: 'A leírás'
+      invitation:
+        email: 'Az e-mail cím'
+      message:
+        recipient_id: 'A címzett'
+        body: 'Az üzenet szövege'
+      page:
+        title: 'A cím'
+        body: 'A szöveg'
+      tale:
+        title: 'A cím'
+      topic:
+        title: 'A cím'
+      trail:
+        name: 'A megnevezés'
+      user:
+        login: 'A felhasználónév'
+        permalink: 'A felhasználónévből képzett azonosító'
+        email: 'Az e-mail cím'
+        avatar: 'A portré'
+        password: 'A jelszó'
+        password_confirmation: 'A jelszó ismétlése'
+      wave:
+        subject: 'Az üzenet tárgya'
+    errors:
+      template:
+        header:
+          one: '{{model}} mentése nem lehetséges 1 hiba miatt.'
+          other: '{{model}} mentése nem lehetséges {{count}} hiba miatt.'
+        body: ''
+      messages:
+        inclusion: 'nincs a listában.'
+        exclusion: 'foglalt.'
+        invalid: 'nem érvényes.'
+        confirmation: 'nem egyezik meg az ismétlésével.'
+        accepted: 'kötelező elfogadni.'
+        empty: 'nem lehet üres.'
+        blank: 'nem lehet üres.'
+        too_long: 'túl hosszú (maximum {{count}} karakter).'
+        too_short: 'túl rövid (minimum {{count}} karakter).'
+        wrong_length: 'nem megfelelő hosszúságú ({{count}} karakternek kell lennie).'
+        taken: 'már használatban van.'
+        not_a_number: 'nem szám.'
+        greater_than: 'nagyobbnak kell lennie, mint {{count}}.'
+        greater_than_or_equal_to: 'nem lehet kisebb, mint {{count}}.'
+        equal_to: 'nem lehet más, mint {{count}}.'
+        less_than: 'kisebbnek kell lennie, mint {{count}}.'
+        less_than_or_equal_to: 'nem lehet nagyobb, mint {{count}}.'
+        odd: 'páratlannak kell lennie.'
+        even: 'párosnak kell lennie.'
+  date:
+    formats:
+      default: '%Y. %B %e.'
+      short: '%b. %e.'
+      long: '%Y. %B %e., %A'
+    day_names: [vasárnap, hétfő, kedd, szerda, csütörtök, péntek, szombat]
+    abbr_day_names: [va, hé, ke, sze, cs, pé, szo]
+    month_names: [~, január, február, március, április, május, június, július, augusztus, szeptember, október, november, december]
+    abbr_month_names: [~, jan, feb, márc, ápr, máj, jún, júl, aug, szept, okt, nov, dec]
+    order: [ :year, :month, :day ]
+  time:
+    formats:
+      default: '%Y. %B %e., %H:%M'
+      short: '%H:%M'
+      long: '%Y. %B %e., %H:%M'
+    am: ''
+    pm: ''
+    time_with_zone:
+      formats:
+        default: '%Y. %B %e., %H:%M'
+  support:
+    array:
+      sentence_connector: 'és'
+  number:
+    format:
+      separator: ','
+      delimiter: '.'
+      precision: 2
+    currency:
+      format:
+        format: '%n %u'
+        unit: 'Ft'
+        separator: ','
+        delimiter: '.'
+        precision: 0
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+    human:
+      format:
+        delimiter: ''
+        precision: 1
+  datetime:
+    distance_in_words:
+      half_a_minute: 'fél perce'
+      less_than_x_seconds:
+        one: 'kevesebb mint egy másodperce'
+        other: 'kevesebb mint {{count}} másodperce'
+      x_seconds:
+        one: 'egy másodperce'
+        other: '{{count}} másodperce'
+      less_than_x_minutes:
+        one: 'kevesebb mint egy perce'
+        other: 'less than {{count}} minutes'
+      x_minutes:
+        one: 'egy perce'
+        other: '{{count}} perce'
+      about_x_hours:
+        one: 'körülbelül egy órája'
+        other: 'körülbelül {{count}} órája'
+      x_days:
+        one: 'egy napja'
+        other: '{{count}} napja'
+      about_x_months:
+        one: 'körülbelül 1 hónapja'
+        other: 'körülbelül {{count}} hónapja'
+      x_months:
+        one: '1 hónapja'
+        other: '{{count}} hónapja'
+      about_x_years:
+        one: 'körülbelül 1 éve'
+        other: 'körülbelül {{count}} éve'
+      over_x_years:
+        one: 'több mint 1 éve'
+        other: 'több mint {{count}} éve'
+
+  views:
+    successfully_created: ''
+    successfully_updated: ''
+    successfully_removed: ''
+
+    close: 'Bezárás'
+    email: 'E-mail cím'
+    forgot_password: 'Elfelejtett jelszó?'
+    login: 'Bejelentkezés'
+    name: 'Név'
+    password: 'Jelszó'
+    password_confirmation: 'Jelszó ismétlése'
+    remember_me: 'Emlékezz rám'
+    sign_up: 'Regisztráció'
+    submit: 'Küldés'
+    change_password: 'Jelszó megváltoztatása'
+    save: 'Mentés'
+    confirm_registration: 'Regisztráció megerősítése'
+    confirm: 'Megerősítés'
+
