@@ -1,3 +1,6 @@
 log/*
 tmp/*
 config/database.yml
+bin
+vendor/bundler_gems
+!vendor/bundler_gems/cache
